@@ -23,7 +23,7 @@ int real_data_array[3];
 // Initialization of values
 
 // require numberSensors * 12 < 500
-int reading_delay = 500 - numberSensors * 12;
+int reading_delay = 500 - numberSensors * 14;
 
 // Timer variables
 long unsigned int now; // current time in millis
